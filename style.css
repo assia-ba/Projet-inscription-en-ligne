@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+    background-color:white;
+  }
+
+input, select {
+  width: 100%;
+  padding: 5px 25px;
+  margin: 8px 0;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  display:flexbox;
+  box-sizing:border-box;
+  }
+  
+input:focus {
+  border: 3px solid #555;
+  }
+input[type=submit], input[type=reset]{
+  background-color: rgb(88, 123, 156);
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  }
+input[type=submit]:hover, input[type=reset]:hover {
+  opacity: 0.8;
+  }
+.fieldset{
+  margin:10px;
+  border:none;
+  background-color:#FFFFFF;
+  border-radius:10px;
+  margin-left:15%;
+  margin-right:15%;
+  padding:20px;
+  }
+ .legend{
+  font-family:verdana, arial, sans-serif;
+  font-size:14pt;
+  font-weight:bold;
+  color:#FFFFFF;
+  margin:10px;
+  padding:10px 20px 10px 20px;
+  background-color:#aecff8;
+  border-radius:4px;
+  }
+ input[type=radio],input.radio {
+  width: auto;
+  }
+.table {
+  border: medium solid #6495ed;
+  border-collapse: collapse;
+  width: 100%;
+  }
+th {
+  font-family: monospace;
+  border: thin solid #6495ed;
+  padding: 5px;
+  background-color: #D0E3FA;
+  }
+.table.td {
+  font-family: sans-serif;
+  border: thin solid #6495ed;
+  padding: 5px;
+  text-align: center;
+  background-color: #ffffff;
+  }
+
+.vertical-menu {
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  height: auto;
+  overflow:auto;
+  }
+
+.vertical-menu a {
+  background-color:rgb(88, 123, 156);
+  color: white; 
+  display:block; 
+  padding: 8px; 
+  text-decoration: none;
+  }
+a:hover {
+  background-color: #aecff8;
+  color: white;
+  }
+
